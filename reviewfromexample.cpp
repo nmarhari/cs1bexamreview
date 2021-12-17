@@ -154,7 +154,7 @@ Its primary purpose is to insert and erase elements in the middle of a vector.
 //    give a definition of a function that accepts this array as a
 //    parameter and returns the max element as a return value.
 
-        int maxFind(arr[][SIZE], size) {// you can not put size in first []
+        int maxFind(int arr[][100], int size) {// you can not put size in first []
             int max = arr[0][0];
             for (int i = 0; i < size; ++i) {
                 for (int j = 0; j < size; ++j) {
