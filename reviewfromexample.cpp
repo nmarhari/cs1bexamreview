@@ -101,7 +101,7 @@ cout << p[0]; // outputs the value of the first element of the array
 Overloaded assignment is used to implement the correct operation of
 assignment for objects with dynamically allocated member variables.
 
-prototype: myclass& myclass::operator=(const myclass& rhs);
+prototype: myclass& operator=(const myclass& rhs);
 
 definition:
         
